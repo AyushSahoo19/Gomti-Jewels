@@ -861,6 +861,17 @@ main {
   }
   
   /* Typography Scaling */
+  .hero-section {
+    padding-top: 180px !important; /* Increased to clear the taller mobile navbar */
+    min-height: 100vh;
+    height: auto;
+    gap: 2rem;
+  }
+  
+  .hero-text, .hero-image-wrapper {
+    flex: 0 1 auto !important; /* Prevent them from splitting 100vh evenly */
+  }
+  
   .hero-text h1 {
     font-size: 3rem !important;
   }
