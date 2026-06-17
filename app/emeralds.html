@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emerald Collection | Gomti Jewels</title>
+    <meta name="description" content="The Royal Emerald Collection by Gomti Jewels — Zambian and Colombian emeralds set in 24K gold. Chokers, Harams, and full sets." />
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      .product-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3rem; max-width: 1300px; margin: 0 auto; }
+      .product-card { background: rgba(5,15,8,0.85); border: 1px solid rgba(30,120,60,0.3); border-top: 2px solid rgba(30,180,80,0.6); overflow: hidden; transition: all 0.5s ease; }
+      .product-card:hover { border-color: rgba(212,175,55,0.5); box-shadow: 0 30px 60px rgba(0,0,0,0.8), 0 0 20px rgba(30,180,80,0.15); transform: translateY(-8px); }
+      .product-card img { width: 100%; height: 380px; object-fit: cover; display: block; transition: transform 0.8s ease; filter: brightness(90%); }
+      .product-card:hover img { transform: scale(1.05); filter: brightness(105%); }
+      .product-info { padding: 2rem; }
+      .product-name { color: var(--color-gold); font-family: var(--font-heading); font-size: 1.3rem; letter-spacing: 2px; margin-bottom: 0.5rem; }
+      .product-desc { color: #999; font-size: 0.9rem; letter-spacing: 1px; margin-bottom: 1rem; text-transform: uppercase; }
+      .product-badge { display: inline-block; border: 1px solid rgba(30,180,80,0.5); color: rgba(80,220,120,0.8); font-size: 0.75rem; letter-spacing: 2px; padding: 0.3rem 1rem; text-transform: uppercase; }
+      .enquire-btn { width: 100%; background: transparent; border: 1px solid rgba(212,175,55,0.3); color: var(--color-gold); padding: 0.8rem; font-family: var(--font-sans); letter-spacing: 3px; font-size: 0.8rem; margin-top: 1rem; cursor: pointer; transition: all 0.3s ease; text-transform: uppercase; }
+      .enquire-btn:hover { background: rgba(212,175,55,0.1); border-color: rgba(212,175,55,0.8); }
+      .emerald-stat { text-align: center; padding: 2.5rem; border: 1px solid rgba(30,120,60,0.3); }
+      .emerald-stat h3 { color: rgba(80,220,120,0.9); font-family: var(--font-heading); font-size: 2.5rem; margin-bottom: 0.5rem; }
+      .emerald-stat p { color: #888; font-size: 0.85rem; letter-spacing: 2px; text-transform: uppercase; }
+    </style>
+  </head>
+  <body>
+    <div class="deep-canvas"></div>
+    <nav class="nav-bar ui-layer">
+      <div class="brand-crest" style="display: flex; align-items: center;">
+        <a href="/index.html"><img src="/Images/logo.png" alt="Gomti Jewels Logo" style="height: 60px; filter: drop-shadow(0 0 15px rgba(255,255,255,0.3));" /></a>
+      </div>
+      <ul class="nav-links">
+        <li class="white-text-effect"><a href="/index.html" style="color: inherit; text-decoration: none;">Home</a></li>
+        <li class="white-text-effect"><a href="/heritage.html" style="color: inherit; text-decoration: none;">Heritage</a></li>
+        <li class="white-text-effect"><a href="/collections.html" style="color: inherit; text-decoration: none;">Collections</a></li>
+        <li class="white-text-effect"><a href="/about.html" style="color: inherit; text-decoration: none;">About Us</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero-section" style="height: 65vh; min-height: 450px; justify-content: center; text-align: center;">
+      <div class="hero-layer hero-layer-deep" style="background-image: url('/Images/Background.png'); background-size: 250%; filter: brightness(30%) sepia(30%) hue-rotate(100deg) saturate(200%);"></div>
+      <div class="hero-text">
+        <p style="color: rgba(80,200,100,0.7); letter-spacing: 6px; font-size: 0.9rem; margin-bottom: 1rem;">COLLECTION 05</p>
+        <h1 class="text-gold" style="font-size: 5rem;">THE ROYAL<br/>EMERALDS</h1>
+        <p style="color:#ccc; margin-top:1rem; letter-spacing:2px; font-size:1rem;">Zambian & Colombian · Individually Selected · 24K Gold Setting</p>
+      </div>
+    </section>
+
+    <main>
+      <section style="padding: 6rem 4rem; background: #040a06;">
+        <!-- Provenance stats -->
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; max-width: 1200px; margin: 0 auto 6rem;">
+          <div class="emerald-stat"><h3>24K</h3><p>Pure Gold Setting</p></div>
+          <div class="emerald-stat"><h3>44+</h3><p>Years of Expertise</p></div>
+          <div class="emerald-stat"><h3>5–8</h3><p>Days to Craft</p></div>
+          <div class="emerald-stat"><h3>100%</h3><p>Handcrafted</p></div>
+        </div>
+
+        <div style="text-align: center; margin-bottom: 5rem;">
+          <p style="color: rgba(80,200,100,0.7); letter-spacing: 4px; font-size: 0.85rem; margin-bottom: 1rem;">INDIVIDUALLY SELECTED STONES</p>
+          <p style="color: #888; max-width: 700px; margin: 0 auto; font-size: 1.05rem; line-height: 1.8;">Each emerald in our collection is hand-selected for colour depth, clarity, and lustre. Set in grand choker and Haram arrangements historically favored by the Nizam courts of South India.</p>
+        </div>
+
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="/Images/IMG_1794.jpg" alt="Nizam Emerald Choker" />
+            <div class="product-info">
+              <div class="product-name">NIZAM'S EMERALD CHOKER</div>
+              <div class="product-desc">Zambian Emerald · 24K Gold</div>
+              <span class="product-badge">Centrepiece</span>
+              <button class="enquire-btn" onclick="window.location.href='mailto:gomtijewels@gmail.com?subject=Enquiry: Nizams Emerald Choker'">Enquire Now</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="/Images/Jwellery 2.jpg" alt="Zambian Emerald Haram" />
+            <div class="product-info">
+              <div class="product-name">ZAMBIAN EMERALD HARAM</div>
+              <div class="product-desc">Zambian Emerald · Long Haram</div>
+              <span class="product-badge">Royal Collection</span>
+              <button class="enquire-btn" onclick="window.location.href='mailto:gomtijewels@gmail.com?subject=Enquiry: Zambian Emerald Haram'">Enquire Now</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="/Images/Jwellery 3.jpg" alt="Emerald Jhumka" />
+            <div class="product-info">
+              <div class="product-name">EMERALD JHUMKA</div>
+              <div class="product-desc">Emerald Drops · Temple Gold</div>
+              <span class="product-badge">Signature</span>
+              <button class="enquire-btn" onclick="window.location.href='mailto:gomtijewels@gmail.com?subject=Enquiry: Emerald Jhumka'">Enquire Now</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="/Images/Jwellery 4.jpg" alt="Emerald Bangle Set" />
+            <div class="product-info">
+              <div class="product-name">EMERALD BANGLE SET</div>
+              <div class="product-desc">Colombian Emerald · 22K Gold · Set of 4</div>
+              <span class="product-badge">Heritage</span>
+              <button class="enquire-btn" onclick="window.location.href='mailto:gomtijewels@gmail.com?subject=Enquiry: Emerald Bangle Set'">Enquire Now</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="/Images/Jwellery.jpg" alt="Emerald Bridal Set" />
+            <div class="product-info">
+              <div class="product-name">EMERALD BRIDAL SET</div>
+              <div class="product-desc">Full Set · Zambian Emerald</div>
+              <span class="product-badge">Bespoke</span>
+              <button class="enquire-btn" onclick="window.location.href='mailto:gomtijewels@gmail.com?subject=Enquiry: Emerald Bridal Set'">Enquire Now</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="/Images/jwellery 5.png" alt="Diamond Emerald Set" style="object-fit: contain; background: rgba(255,255,255,0.03);" />
+            <div class="product-info">
+              <div class="product-name">DIAMOND & EMERALD SET</div>
+              <div class="product-desc">Uncut Diamond · Emerald Accent</div>
+              <span class="product-badge">Masterpiece</span>
+              <button class="enquire-btn" onclick="window.location.href='mailto:gomtijewels@gmail.com?subject=Enquiry: Diamond and Emerald Set'">Enquire Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align:center; margin-top: 5rem; padding: 4rem; border: 1px solid rgba(30,120,60,0.3); max-width: 700px; margin-left: auto; margin-right: auto;">
+          <h3 style="color: var(--color-gold); font-family: var(--font-heading); font-size: 2rem; margin-bottom: 1rem;">EMERALD SOURCING</h3>
+          <p style="color: #999; line-height: 1.8; margin-bottom: 2rem;">We source only the finest Zambian and Colombian emeralds. Contact us to view our stone inventory or commission a bespoke piece around your chosen stone.</p>
+          <a href="tel:01414002266"><button class="rock-btn" style="margin-right: 1rem;">Call: 0141-4002266</button></a>
+          <a href="mailto:gomtijewels@gmail.com?subject=Emerald Collection Enquiry"><button class="rock-btn">Email Us</button></a>
+        </div>
+      </section>
+      <footer class="site-footer">
+        <div class="footer-bg"></div>
+        <div class="footer-content">
+          <img src="/Images/logo.png" alt="Logo" class="footer-logo" />
+          <h2 class="footer-title">GOMTI JEWELS</h2>
+          <div class="footer-contact">
+            <p>PHONE : 0141-4002266 , 0141-4112266</p>
+            <p>EMAIL : GOMTIJEWELS@GMAIL.COM</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

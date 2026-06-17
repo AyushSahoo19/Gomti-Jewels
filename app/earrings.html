@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Earrings | Gomti Jewels</title>
+    <meta name="description" content="Gomti Jewels handcrafted earrings — Jhumkas, Chandbalis, Temple drops and more in 24K gold." />
+    <link rel="stylesheet" href="/style.css" />
+    <style>
+      .product-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 3rem; max-width: 1300px; margin: 0 auto; }
+      .product-card { background: rgba(15,8,2,0.8); border: 1px solid rgba(212,175,55,0.15); border-top: 2px solid rgba(212,175,55,0.5); overflow: hidden; transition: all 0.5s ease; }
+      .product-card:hover { border-color: rgba(212,175,55,0.5); box-shadow: 0 30px 60px rgba(0,0,0,0.8), 0 0 20px rgba(212,175,55,0.1); transform: translateY(-8px); }
+      .product-card img { width: 100%; height: 380px; object-fit: cover; display: block; transition: transform 0.8s ease; filter: brightness(90%); }
+      .product-card:hover img { transform: scale(1.05); filter: brightness(105%); }
+      .product-info { padding: 2rem; }
+      .product-name { color: var(--color-gold); font-family: var(--font-heading); font-size: 1.3rem; letter-spacing: 2px; margin-bottom: 0.5rem; }
+      .product-desc { color: #999; font-size: 0.9rem; letter-spacing: 1px; margin-bottom: 1rem; text-transform: uppercase; }
+      .product-badge { display: inline-block; border: 1px solid rgba(212,175,55,0.4); color: var(--color-gold-dim); font-size: 0.75rem; letter-spacing: 2px; padding: 0.3rem 1rem; text-transform: uppercase; }
+      .enquire-btn { width: 100%; background: transparent; border: 1px solid rgba(212,175,55,0.3); color: var(--color-gold); padding: 0.8rem; font-family: var(--font-sans); letter-spacing: 3px; font-size: 0.8rem; margin-top: 1rem; cursor: pointer; transition: all 0.3s ease; text-transform: uppercase; }
+      .enquire-btn:hover { background: rgba(212,175,55,0.1); border-color: rgba(212,175,55,0.8); }
+    </style>
+  </head>
+  <body>
+    <div class="deep-canvas"></div>
+    <nav class="nav-bar ui-layer">
+      <div class="brand-crest" style="display: flex; align-items: center;">
+        <a href="/index.html"><img src="/Images/logo.png" alt="Gomti Jewels Logo" style="height: 60px; filter: drop-shadow(0 0 15px rgba(255,255,255,0.3));" /></a>
+      </div>
+      <ul class="nav-links">
+        <li class="white-text-effect"><a href="/index.html" style="color: inherit; text-decoration: none;">Home</a></li>
+        <li class="white-text-effect"><a href="/heritage.html" style="color: inherit; text-decoration: none;">Heritage</a></li>
+        <li class="white-text-effect"><a href="/collections.html" style="color: inherit; text-decoration: none;">Collections</a></li>
+        <li class="white-text-effect"><a href="/about.html" style="color: inherit; text-decoration: none;">About Us</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero-section" style="height: 55vh; min-height: 400px; justify-content: center; text-align: center;">
+      <div class="hero-layer hero-layer-deep" style="background-image: url('/Images/Background.png'); background-size: 250%; filter: brightness(30%) sepia(30%) hue-rotate(330deg);"></div>
+      <div class="hero-text">
+        <p style="color: var(--color-gold-dim); letter-spacing: 6px; font-size: 0.9rem; margin-bottom: 1rem;">COLLECTION 02</p>
+        <h1 class="text-gold" style="font-size: 5rem;">EARRINGS</h1>
+        <p style="color:#ccc; margin-top:1rem; letter-spacing:2px; font-size:1rem;">Jhumkas · Chandbalis · Temple Drops · 24K Gold</p>
+      </div>
+    </section>
+
+    <main>
+      <section style="padding: 8rem 4rem; background: #080400;">
+        <div style="text-align: center; margin-bottom: 5rem;">
+          <p style="color: var(--color-gold-dim); letter-spacing: 4px; font-size: 0.85rem; margin-bottom: 1rem;">HANDCRAFTED IN JAIPUR SINCE 1975</p>
+          <p style="color: #888; max-width: 700px; margin: 0 auto; font-size: 1.05rem; line-height: 1.8;">From delicate temple jhumkas to grand chandbalis, each pair celebrates the full spectrum of South Indian ornamental artistry. All pieces available to order in 5–8 business days.</p>
+        </div>
+
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="/Images/Jwellery 2.jpg" alt="Temple Jhumka" />
+            <div class="product-info">
+              <div class="product-name">TEMPLE JHUMKA</div>
+              <div class="product-desc">24K Gold · Kemp Stone Drops</div>
+              <span class="product-badge">Bestseller</span>
+              <button class="enquire-btn" onclick="window.location.href='mailto:gomtijewels@gmail.com?subject=Enquiry: Temple Jhumka'">Enquire Now</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="/Images/IMG_1794.jpg" alt="Royal Chandbali" />
+            <div class="product-info">
+              <div class="product-name">ROYAL CHANDBALI</div>
+              <div class="product-desc">Emerald & Gold · Moon Design</div>
+              <span class="product-badge">Signature Piece</span>
+              <button class="enquire-btn" onclick="window.location.href='mailto:gomtijewels@gmail.com?subject=Enquiry: Royal Chandbali'">Enquire Now</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="/Images/Jwellery 3.jpg" alt="Deity Drop Earrings" />
+            <div class="product-info">
+              <div class="product-name">DEITY DROP EARRINGS</div>
+              <div class="product-desc">Deity Motif · Antique Finish</div>
+              <span class="product-badge">Heritage Piece</span>
+              <button class="enquire-btn" onclick="window.location.href='mailto:gomtijewels@gmail.com?subject=Enquiry: Deity Drop Earrings'">Enquire Now</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="/Images/Jwellery 4.jpg" alt="Bridal Kaan" />
+            <div class="product-info">
+              <div class="product-name">BRIDAL LONG KAAN</div>
+              <div class="product-desc">22K Gold · Ruby Drops</div>
+              <span class="product-badge">Bridal</span>
+              <button class="enquire-btn" onclick="window.location.href='mailto:gomtijewels@gmail.com?subject=Enquiry: Bridal Long Kaan'">Enquire Now</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="/Images/Jwellery.jpg" alt="Peacock Earrings" />
+            <div class="product-info">
+              <div class="product-name">PEACOCK JHUMKA</div>
+              <div class="product-desc">Temple Gold · Peacock Motif</div>
+              <span class="product-badge">Sacred Collection</span>
+              <button class="enquire-btn" onclick="window.location.href='mailto:gomtijewels@gmail.com?subject=Enquiry: Peacock Jhumka'">Enquire Now</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="/Images/jwellery 5.png" alt="Stud Earrings" style="object-fit: contain; background: rgba(255,255,255,0.03);" />
+            <div class="product-info">
+              <div class="product-name">DIAMOND STUD SET</div>
+              <div class="product-desc">Uncut Diamonds · 22K Gold</div>
+              <span class="product-badge">Bespoke</span>
+              <button class="enquire-btn" onclick="window.location.href='mailto:gomtijewels@gmail.com?subject=Enquiry: Diamond Stud Set'">Enquire Now</button>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align:center; margin-top: 5rem; padding: 4rem; border: 1px solid rgba(212,175,55,0.15); max-width: 700px; margin-left: auto; margin-right: auto;">
+          <h3 style="color: var(--color-gold); font-family: var(--font-heading); font-size: 2rem; margin-bottom: 1rem;">BESPOKE ORDERS</h3>
+          <p style="color: #999; line-height: 1.8; margin-bottom: 2rem;">All earring designs can be customised. Contact us to create your perfect pair.</p>
+          <a href="tel:01414002266"><button class="rock-btn" style="margin-right: 1rem;">Call: 0141-4002266</button></a>
+          <a href="mailto:gomtijewels@gmail.com"><button class="rock-btn">Email Us</button></a>
+        </div>
+      </section>
+      <footer class="site-footer">
+        <div class="footer-bg"></div>
+        <div class="footer-content">
+          <img src="/Images/logo.png" alt="Logo" class="footer-logo" />
+          <h2 class="footer-title">GOMTI JEWELS</h2>
+          <div class="footer-contact">
+            <p>PHONE : 0141-4002266 , 0141-4112266</p>
+            <p>EMAIL : GOMTIJEWELS@GMAIL.COM</p>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
