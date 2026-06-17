@@ -188,6 +188,7 @@ h1, h2, h3, h4, .font-heading {
   position: fixed;
   width: 100%;
   top: 0;
+  left: 0;
   z-index: var(--z-nav);
   transition: all 0.4s ease;
 }
@@ -319,7 +320,9 @@ main {
 }
 
 .hero-image {
+  width: 100%;
   max-width: 500px;
+  height: auto;
   filter: drop-shadow(0 30px 40px rgba(0,0,0,0.9));
   /* GSAP will animate this */
 }
@@ -929,6 +932,11 @@ main {
   
   .footer-title {
     font-size: 1.8rem;
+  }
+  
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
   }
 }
 
